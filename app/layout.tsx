@@ -11,8 +11,8 @@ export const metadata = {
 };
 
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import MobileStickyCTA from "../components/MobileStickyCTA";
 
 export default function RootLayout({ children }) {

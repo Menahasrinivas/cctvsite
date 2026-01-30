@@ -1,5 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
-import CTA from "@/components/CTA";
+import CTA from "../../components/CTA";
 
 export const metadata = {
   title: "CCTV Services in Chennai",

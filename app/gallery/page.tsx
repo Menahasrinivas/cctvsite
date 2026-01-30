@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CTA from "@/components/CTA";
+import CTA from "../../components/CTA";
 
 export const metadata = {
   title: "Installation Gallery",

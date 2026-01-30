@@ -1,4 +1,4 @@
-import CTA from "@/components/CTA";
+import CTA from "../../components/CTA";
 
 export const metadata = {
   title: "About Riyaz CCTV",

@@ -1,5 +1,5 @@
-import ProductCard from "@/components/ProductCard";
-import CTA from "@/components/CTA";
+import ProductCard from "../../components/ProductCard";
+import CTA from "../../components/CTA";
 
 export const metadata = {
   title: "CCTV Products",

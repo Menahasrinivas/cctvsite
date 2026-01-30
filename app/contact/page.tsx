@@ -1,5 +1,5 @@
-import ContactForm from "@/components/ContactForm";
-import JsonLd from "@/components/JsonLd";
+import ContactForm from "../../components/ContactForm";
+import JsonLd from "../../components/JsonLd";
 
 export default function Contact() {
   return (
