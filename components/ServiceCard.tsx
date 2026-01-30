@@ -1,4 +1,9 @@
-export default function ServiceCard({ title, desc }) {
+type ServiceCardProps = {
+  title: string;
+  desc: string;
+};
+
+export default function ServiceCard({ title, desc }: ServiceCardProps) {
   return (
     <div className="border rounded-lg p-6 shadow hover:shadow-lg transition">
       <h3 className="text-xl font-bold mb-2">{title}</h3>

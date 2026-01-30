@@ -1,6 +1,16 @@
 import Image from "next/image";
 
-export default function ProductCard({ name, img, spec }) {
+type ProductCardProps = {
+  name: string;
+  img: string;
+  spec: string;
+};
+
+export default function ProductCard({
+  name,
+  img,
+  spec,
+}: ProductCardProps) {
   return (
     <div className="border rounded-lg p-4 shadow">
       <Image
