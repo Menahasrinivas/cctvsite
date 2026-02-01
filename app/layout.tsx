@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import "./globals.css";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import MobileStickyCTA from "../components/MobileStickyCTA";
@@ -17,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export default function RootLayout({ children }: Props) {
@@ -26,8 +28,8 @@ export default function RootLayout({ children }: Props) {
       <body>
         <Header />
         {children}
-        <Footer />
         <MobileStickyCTA />
+        <Footer />
       </body>
     </html>
   );

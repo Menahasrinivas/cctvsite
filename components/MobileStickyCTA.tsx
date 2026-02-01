@@ -2,7 +2,7 @@ export default function MobileStickyCTA() {
   return (
     <div className="fixed bottom-0 left-0 right-0 md:hidden flex">
       <a
-        href="tel:+91XXXXXXXXXX"
+        href="tel:+919999999990"
         className="flex-1 bg-green-600 text-white text-center py-3 font-bold"
       >
         Call Now
