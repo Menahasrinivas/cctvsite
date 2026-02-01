@@ -16,7 +16,7 @@ export default function Footer() {
 
         <div>
           <h3 className="font-bold mb-3">Quick Contact</h3>
-          <p>📞 +91XXXXXXXXXX</p>
+          <p>📞 +919876543210</p>
           <p>✉ info@example.com</p>
 
           <a

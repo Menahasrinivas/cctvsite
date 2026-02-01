@@ -40,7 +40,7 @@ export default function Products() {
 
         <ProductCard
           name="NVR Recorder"
-          img="/images/nvr.jpg"
+          img="/images/nvr.png"
           spec="Network video recorder"
         />
 
